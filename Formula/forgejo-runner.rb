@@ -3,7 +3,7 @@ class ForgejoRunner < Formula
   homepage "https://forgejo.org"
   url "https://code.forgejo.org/forgejo/runner/archive/v13.1.0.tar.gz"
   sha256 "bdece01a00354bb29de4e36b6c72afae9ed571ed1fba1905d01bc8961de41819"
-  license "GPLv3-or-later"
+  license "GPL-3.0-or-later"
 
   livecheck do
     url "https://code.forgejo.org/api/v1/repos/forgejo/runner/releases/latest"
